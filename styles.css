@@ -3,12 +3,18 @@
     color: #050505;
 }
 
+body {
+    margin: 0px;
+}
+
 h1 {
     font-weight: bold;
     background-image: linear-gradient(110deg, #cf3e11, #ec8f04);
     color: whitesmoke;
     text-indent: 1%;
     box-shadow: 0px 2px 2px black;
+    margin-top: 0px;
+    padding: 10px 5px;
 }
 
 h3 {
@@ -23,4 +29,34 @@ img {
     border: 5px solid whitesmoke;
     border-radius: 4px;
     box-shadow: 0px 2px 2px black;
+}
+
+#menu {
+    background-color: rgb(238, 233, 233);
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 0px 2px 2px black;
+}
+
+.menu-element {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-element a {
+    display: block;
+}
+
+.menu-element img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#menu h3 {
+    padding-left: 10px;
+    margin: 10px 0px 0px;
 }
